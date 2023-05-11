@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f5f8ff;
+    width: 100%;
+    max-width: 1920px;
+    height: 965px;
+}
+
+#cookiePopup {
+    background-color: #ffffff;
+    position: absolute;
+    font-size: 14px;
+    width: 70vw;
+    max-width: 42.85em;
+    box-shadow: 0 0 2em rgba(5, 0, 31, 0.15);
+    font-family: "Poppins", sans-serif;
+    text-align: justify;
+    line-height: 1.8em;
+    padding: 2em 1.4em;
+    border-radius: 6px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.5s ease-in;
+}
+
+#cookiePopup img {
+    display: block;
+    width: 6.75em;
+    transform: translateZ(0);
+    position: relative;
+    margin: auto;
+}
+
+.custom-margins-top {
+    margin-top: 1.4em;
+}
+
+#cookiePopup p {
+    text-align: center;
+    margin: 1.4em 0;
+}
+
+#acceptCookie {
+    background-color: #5CB85C;
+    border: none;
+    color: #ffffff;
+    font-size: 1.2em;
+    padding: 1em 1.4em;
+    display: block;
+    position: relative;
+    border-radius: 5px;
+}
+
+#refuseCookie {
+    background-color: #D04B4B;
+    border: none;
+    color: #ffffff;
+    font-size: 1.2em;
+    padding: 1em 1.4em;
+    display: block;
+    position: relative;
+    border-radius: 5px;
+}
+
+#settingsCookie {
+    background-color: #A09D9D;
+    border: none;
+    color: #ffffff;
+    font-size: 1.2em;
+    padding: 1em 1.4em;
+    display: block;
+    position: relative;
+    border-radius: 5px;
+}
+
+#acceptCustomCookie {
+    background-color: #5CB85C;
+    border: none;
+    color: #ffffff;
+    font-size: 1.2em;
+    padding: 1em 1.4em;
+    display: block;
+    position: relative;
+    border-radius: 5px;
+    margin-top: 1.4em;
+}
+
+#goBackCookie {
+    background-color: #A09D9D;
+    border: none;
+    color: #ffffff;
+    font-size: 1.2em;
+    padding: 1em 1.4em;
+    display: block;
+    position: relative;
+    border-radius: 5px;
+    margin-top: 1.4em;
+}
+
+#cookiePopup a {
+    color: #1D9BF0;
+}
+
+
+.hide {
+
+    display: none;
+    bottom: 0;
+    right: 2em;
+}
+
+.hide-fake {
+    visibility: hidden;
+
+    bottom: 0;
+    right: 2em;
+}
+
+
+
+.pointer {
+    cursor: pointer;
+}
+
+.centered-header {
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+}

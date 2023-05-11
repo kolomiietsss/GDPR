@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<div id="cookiePopup" class="show">
+    <div id="basicInformation" class="show">
+        <img src="https://www.iconarchive.com/download/i107508/google/noto-emoji-food-drink/32420-cookie.ico" alt="" srcset="">
+        <p>Our website uses cookies to improve your experience, to measure the audience of our site or to transfer
+            some
+            personal data of users (only with users' consent) to other third-party services and advertising
+            networks.
+            More information on the configuration of our privacy and cookies below.
+        </p>
+
+        <p>See our
+            <a href="https://app.bristlr.com/terms" target="_blank">Privacy Policy</a>
+            and
+            <a href="https://www.freeprivacypolicy.com/live/3d85e59f-5660-4716-a20d-eefa53baa651"
+               target="_blank">Cookies Policy</a>
+        </p>
+    </div>
+
+
+    <div id="additional-settings" class="hide">
+        <h2 class="centered-header custom-margins-top">Additional Settings</h2>
+        <h3>Cookies:</h3>
+        <div>
+            <div>
+                <input type="checkbox" id="necessaryCookies" name="necessaryCookies" onclick="return false;"
+                       checked>
+                <label for="necessaryCookies">
+                    Necessary cookies: These cookies are necessary for the site to work
+                    and do not
+                    collect any personal information. These cookies contain information about the user's session and
+                    allow the selected language to be saved.
+                </label>
+            </div>
+            <div>
+                <input type="checkbox" id="analyticalCookies" name="analyticalCookies" checked>
+                <label for="analyticalCookies">
+                    Analytical cookies: These cookies collect information about users,
+                    which is used
+                    to track user actions on the site and to improve the site. For example, such cookies may collect
+                    information about the number of visits to the site, the types of devices used by users, the
+                    referral links that led to the site, and other data that allow us to analyze the behavior of
+                    users on the site.
+                </label>
+            </div>
+        </div>
+        <h3>Privacy:</h3>
+        <div>
+            <div>
+                <input type="checkbox" id="rightToAccessData" name="rightToAccessData" checked>
+                <label for="rightToAccessData">
+                    Right to access data
+                </label>
+            </div>
+            <div>
+                <input type="checkbox" id="rightToDataRectification" name="rightToDataRectification" checked>
+                <label for="rightToDataRectification">
+                    Right to rectification of data
+                </label>
+            </div>
+            <div>
+                <input type="checkbox" id="rightToBeForgotten" name="rightToBeForgotten" checked>
+                <label for="rightToDataRectification">
+                    The right "to be forgotten"
+                </label>
+            </div>
+            <div>
+                <input type="checkbox" id="rightToRestrictionProcessing" name="rightToRestrictionProcessing"
+                       checked>
+                <label for="rightToRestrictionProcessing">
+                    The right to restriction of processing
+                </label>
+            </div>
+            <div>
+                <input type="checkbox" id="rightToMobility" name="rightToMobility">
+                <label for="rightToMobility">
+                    The right to mobility
+                </label>
+            </div>
+            <div>
+                <input type="checkbox" id="rightToObject" name="rightToObject">
+                <label for="rightToObject">
+                    The right to object
+                </label>
+            </div>
+            <div>
+                <input type="checkbox" id="rightFromSelectionAndProfiling" name="rightFromSelectionAndProfiling">
+                <label for="rightFromSelectionAndProfiling">
+                    The right to opt out of automatic selection and profiling
+                </label>
+            </div>
+        </div>
+
+        <button id="acceptCustomCookie" class="pointer">Save & Accept Custom Settings</button>
+        <button id="goBackCookie" class="pointer">
+            << Go Back</button>
+    </div>
+
+    <div id="buttonsBlock" class="flex show">
+        <button id="acceptCookie" class="pointer">I Accept</button>
+        <button id="refuseCookie" class="pointer">I Do Not Accept</button>
+        <button id="settingsCookie" class="pointer">Settings</button>
+    </div>
+</div>
+</body>
+<script src="script.js"></script>
+</html>
